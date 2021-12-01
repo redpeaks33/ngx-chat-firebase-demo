@@ -1,0 +1,25 @@
+* {
+  margin: 2px;
+}
+
+.chat-container {
+  height: 100vh;
+  background-color: lightblue;
+}
+
+.chat-message {
+  overflow-y: auto;
+}
+
+.chat-field {
+  background-color: white;
+}
+
+.comment {
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.comment-info {
+  text-align: right;
+}

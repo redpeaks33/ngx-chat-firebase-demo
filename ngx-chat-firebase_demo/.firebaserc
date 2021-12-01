@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "ngx-firebase-chat-23bc4": {
+      "hosting": {
+        "angularproject1": [
+          "ngx-firebase-chat-23bc4"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "ngx-firebase-chat-23bc4"
+  }
+}

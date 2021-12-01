@@ -1,0 +1,24 @@
+<div fxLayout="column" class="chat-container" fxLayoutAlign="space-between none">
+  <div fxFlex="80" #messagePane class="chat-message">
+    <div *ngFor="let item of item$ | async">
+      <mat-card>
+        <span class="comment">{{ item.comment }}</span>
+        <mat-card-subtitle class="comment-info" style="text-align: right;">{{item.time | date: 'y/MM/dd (EE) HH:mm'}} </mat-card-subtitle>
+      </mat-card>
+    </div>
+  </div>
+  <div fxFlex="20">
+    <div fxLayout="row" fxLayoutAlign="space-between end">
+      <mat-form-field fxFlex="80" apperance="fill" class="chat-field">
+        <mat-label>Leave a comment</mat-label>
+        <textarea matInput [(ngModel)]="comment" (keyup)="$event.keyCode == 13 && sendMessage()" placeholder="how do you do ? "></textarea>
+        <mat-hint>Thank you for using from developer ^^</mat-hint>
+        <button *ngIf="comment" matSuffix mat-icon-button aria-label="Clear" (click)="comment=''">
+          <mat-icon>close</mat-icon>
+        </button>
+      </mat-form-field>
+      <button fxFlex="20" mat-raised-button color="primary" (click)="sendMessage()">Send</button>
+      <button fxFlex="20" mat-raised-button color="primary" (click)="clearAllMessages()">clear</button>
+    </div>
+  </div>
+</div>
