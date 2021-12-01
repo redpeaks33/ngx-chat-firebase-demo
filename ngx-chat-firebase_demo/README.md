@@ -1,27 +1,24 @@
-# ngx-chat-firebase-demo
+# ng-chat-firebase
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.13.
+A simple anonymous open chat module for Angular & Firebase applications.
 
-## Development server
+* [Live demo](https://ngx-firebase-chat-23bc4.web.app/)
+* [Live demo source code (Angular & Firebase)](https://github.com/redpeaks33/ngx-chat-firebase-demo)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<a href="https://www.buymeacoffee.com/redpeaks" target="_blank">
+  <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;">
+</a>
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# Troubleshooting
 
-## Build
+Please follow this guideline when reporting bugs and feature requests:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Use [GitHub Issues](https://github.com/redpeaks33/ngx-chat-firebase-demo/issues) board to report bugs and feature requests.
+2. Please **always** write the steps to reproduce the error. This will make it easier to reproduce, identify and fix bugs.
 
-## Running unit tests
+Thanks for understanding!
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### License
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+The MIT License
