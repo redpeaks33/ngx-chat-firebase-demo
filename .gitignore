@@ -237,5 +237,6 @@ utility/data_tool/CrossWordAlgorithm/*.txt
 utility/data_tool
 
 
-# Angular Cache
+# Angular cacheche
 .angular/
+ngx-chat-firebase_demo/src/environments/environment.ts
